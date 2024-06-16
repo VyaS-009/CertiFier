@@ -1,0 +1,75 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-bg-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.formTitle {
+  font-family: "Poppins", sans-serif;
+  color: var(--icons-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.formGroup {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.formLabel {
+  font-family: "Poppins", sans-serif;
+  color: var(--icons-color);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.formInput,
+.formDateInput {
+  width: calc(100% - 1rem);
+  padding: 0.5rem;
+  border: 1px solid var(--icons-color);
+  border-radius: 0.5rem;
+  background-color: var(--icons-bg-color);
+  color: var(--icons-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.formInput:focus,
+.formDateInput:focus {
+  outline: none;
+  border-color: var(--icons-color);
+}
+
+.fileInput {
+  width: 100%;
+  padding: 1rem;
+  border: 2px dashed var(--icons-color);
+  border-radius: 0.5rem;
+  background-color: var(--icons-bg-color);
+  color: var(--icons-color);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.submitButton {
+  background-color: var(--icons-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.2s ease;
+}
+
+.submitButton:hover {
+  background-color: darken(var(--icons-color), 10%);
+}

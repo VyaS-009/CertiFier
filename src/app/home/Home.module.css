@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--main-bg-color);
+}
+
+.createCertificate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--icons-bg-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.createCertificate:hover {
+  transform: scale(1.05);
+}
+
+.plusIcon {
+  font-size: 3rem;
+  color: var(--icons-color);
+  margin-bottom: 1rem;
+}
+
+.createCertificate p {
+  font-family: "Poppins", sans-serif;
+  color: var(--icons-color);
+  font-size: 1.2rem;
+}

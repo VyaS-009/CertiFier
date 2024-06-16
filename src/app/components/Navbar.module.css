@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--main-bg-color);
+  box-shadow: var(--box-shadow);
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--icons-color);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--icons-color);
+}
+
+.searchIcon {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.connectWalletButton {
+  background-color: var(--icons-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.rguktLogo {
+  width: 50px;
+  height: 50px;
+}

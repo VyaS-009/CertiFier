@@ -1,0 +1,14 @@
+.button {
+  background-color: var(--icons-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: darken(var(--icons-color), 10%);
+}
